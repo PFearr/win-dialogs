@@ -1,6 +1,6 @@
 {
   "name": "win-dialogs",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Node.js wrapper for native Windows file and folder dialogs using PowerShell.",
   "main": "dialogs.mjs",
   "types": "./dialogs.d.ts",
