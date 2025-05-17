@@ -1,0 +1,21 @@
+{
+  "name": "win-dialogs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dialogs.mjs",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "publish": "npm publish --access public",
+    "test": "node test/dialogs.test.js && node test/esm/dialogs.esm.test.js && node test/dialogs.test.mjs",
+    "patch": "npm version patch && npm publish --access public",
+    "minor": "npm version minor && npm publish --access public",
+    "major": "npm version major && npm publish --access public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "types": "./dialogs.d.ts"
+}
