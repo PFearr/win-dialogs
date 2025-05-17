@@ -1,6 +1,6 @@
 {
-  "name": "win-select",
-  "version": "1.0.1",
+  "name": "win-dialogs",
+  "version": "1.0.0",
   "description": "",
   "main": "dialogs.mjs",
   "directories": {
