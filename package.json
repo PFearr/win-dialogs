@@ -1,6 +1,6 @@
 {
   "name": "win-select",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dialogs.mjs",
   "directories": {
@@ -8,7 +8,6 @@
   },
   "scripts": {
     "publish": "npm publish --access public",
-    
     "test": "node test/dialogs.test.js && node test/esm/dialogs.esm.test.js && node test/dialogs.test.mjs"
   },
   "keywords": [],
