@@ -1,7 +1,17 @@
 # win-dialogs
 
+![NPM Downloads](https://img.shields.io/npm/dw/win-dialogs)
+[![npm](https://img.shields.io/npm/v/win-dialogs.svg)](https://www.npmjs.com/package/win-dialogs)
+[![license](https://img.shields.io/npm/l/win-dialogs.svg)](https://github.com/PFearr/win-dialogs/blob/main/LICENSE)
+![npm bundle size](https://img.shields.io/bundlephobia/min/win-dialogs)
+![NPM Downloads by package author](https://img.shields.io/npm-stat/dy/pfearr)
+
+
+
 **File dialogs for Node.js.**  
 Uses PowerShell and .NET WinForms to open native Windows file/folder dialogs with support for Folder Picking and File Picking and customizable options.
+
+
 
 ## ❗ Notes
 
