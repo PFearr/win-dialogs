@@ -2,12 +2,14 @@
   "name": "win-select",
   "version": "1.0.0",
   "description": "",
-  "main": "dialogs.js",
+  "main": "dialogs.mjs",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "publish": "npm publish --access public",
+    
+    "test": "node test/dialogs.test.js && node test/esm/dialogs.esm.test.js && node test/dialogs.test.mjs"
   },
   "keywords": [],
   "author": "",

@@ -1,12 +1,8 @@
-// test/dialogs.test.js
-const assert = require('assert');
-const { describe, it } = require('node:test');
+// test/dialogs.esm.test.js
+import assert from 'assert';
+import { describe, it } from 'node:test';
+import { FolderBrowserDialog, OpenFileDialog, OpenFolderDialog } from '../../dialogs.mjs';
 
-const {
-  FolderBrowserDialog,
-  OpenFileDialog,
-  OpenFolderDialog
-} = require('../dialogs.mjs'); 
 
 describe('Windows Dialog Tests', () => {
   it('FolderBrowserDialog should return a selected folder path', async () => {

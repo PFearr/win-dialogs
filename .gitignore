@@ -113,3 +113,8 @@ public
 # Temporary folders
 tmp/
 temp/
+
+# Test Modules
+./test/ts/node_modules*
+# if you're reading this, i was too lazy to test out typescript since who uses it??
+# if you use typescript and it doesn't work. I'm sorry
