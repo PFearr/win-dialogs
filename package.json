@@ -14,10 +14,10 @@
   },
   "scripts": {
     "test": "node test/dialogs.test.js && node test/esm/dialogs.esm.test.js && node test/dialogs.test.mjs",
-    "publish": "npm publish --access public",
-    "patch": "npm version patch && npm publish --access public",
-    "minor": "npm version minor && npm publish --access public",
-    "major": "npm version major && npm publish --access public"
+    "release": "npm publish --access public",
+    "patch": "npm version patch && npm run release",
+    "minor": "npm version minor && npm run release",
+    "major": "npm version major && npm run release"
   },
   "repository": {
     "type": "git",
