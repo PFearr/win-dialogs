@@ -1,21 +1,43 @@
 {
   "name": "win-dialogs",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Node.js wrapper for native Windows file and folder dialogs using PowerShell.",
   "main": "dialogs.mjs",
+  "types": "./dialogs.d.ts",
+  "type": "module",
+  "exports": {
+    "import": "./dialogs.mjs",
+    "require": "./dialogs.mjs"
+  },
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "publish": "npm publish --access public",
     "test": "node test/dialogs.test.js && node test/esm/dialogs.esm.test.js && node test/dialogs.test.mjs",
+    "publish": "npm publish --access public",
     "patch": "npm version patch && npm publish --access public",
     "minor": "npm version minor && npm publish --access public",
     "major": "npm version major && npm publish --access public"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "types": "./dialogs.d.ts"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PFearr/win-dialogs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PFearr/win-dialogs/issues"
+  },
+  "homepage": "https://github.com/PFearr/win-dialogs#readme",
+  "keywords": [
+    "windows",
+    "dialog",
+    "folder",
+    "file",
+    "powershell",
+    "nodejs",
+    "gui",
+    "native",
+    "wrapper"
+  ],
+  "author": "PFearr",
+  "license": "MIT"
 }
